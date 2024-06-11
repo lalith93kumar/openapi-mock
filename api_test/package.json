@@ -1,0 +1,25 @@
+{
+  "name": "api_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^13.11.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "json-refs": "^3.0.15",
+    "json-schema-faker": "0.5.4",
+    "jsonpath-plus": "^9.0.0",
+    "jsonschema": "^1.4.1",
+    "yamljs": "^0.3.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/support/step_definitions"
+  }
+}
